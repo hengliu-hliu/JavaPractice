@@ -1,18 +1,27 @@
 public class IntPractice {
 
-
     private int myInt;
 
+    //Constructor
     public IntPractice(int myInt){
         this.myInt = myInt;
     }
 
-    // for getters 'this' is optional
-    public int getMyInt(){return myInt;}
+    //Getters
+    public int getMyInt(){
+        return myInt;
+    }
 
-    public void setMyInt(int newInt){ this.myInt = newInt;}
+    public Integer getMyInteger(){
+        return myInt;
+    }
 
-    public Integer getMyInteger(){return myInt;}
+    //Setters
+    public void setMyInt(int newInt){
+        this.myInt = newInt;
+    }
+
+
 
 
 }

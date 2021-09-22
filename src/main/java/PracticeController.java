@@ -19,6 +19,12 @@ public class PracticeController<E> {
         firstPracticeController.getStringMain().print();
 
         firstPracticeController.getMyArray().print();
+
+        firstPracticeController.myString.combine(" Second", " Third", " Fourth");
+
+        firstPracticeController.getStringMain().print();
+
+        firstPracticeController.myString.commonMethods();
     }
 
     // Getters
